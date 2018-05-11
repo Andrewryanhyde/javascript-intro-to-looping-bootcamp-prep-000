@@ -24,8 +24,9 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(array) {
+  let n = array.length
   do {
-    array.pop(1)
+    array.pop(1, n)
   } while(array.length > 0 && maybeTrue()); 
   
 }
